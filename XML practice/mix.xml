@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE books SYSTEM "mix.dtd">
+	
+	<books>
+		<book>
+			<book_title>xml</book_title>
+			<sub_title></sub_title>
+			<author>atul</author>
+			<author>yash</author>
+			<pubyear>2010</pubyear>
+		</book>
+	
+	</books>

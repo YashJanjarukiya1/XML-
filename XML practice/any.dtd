@@ -1,0 +1,8 @@
+<!ELEMENT books (book*)>
+<!ELEMENT book (book_title,sub_title,author,pubyear)>
+<!ELEMENT book_title (#PCDATA)>
+<!ELEMENT sub_title EMPTY>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT pubyear ANY>
+<!ELEMENT REPRENT (#PCDATA)>
+<!ELEMENT isbn EMPTY>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE books SYSTEM "occu.dtd">
+	
+	<books>
+		<book>
+			<book_title>xml</book_title>
+			<author>atul</author>
+			<author>yash</author>
+			<pubyear>2010</pubyear>
+			<pubyear>2020</pubyear>
+		</book>
+	
+	</books>

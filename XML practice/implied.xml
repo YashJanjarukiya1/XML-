@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE email [
+		<!ELEMENT email (message)>
+		<!ELEMENT message (#PCDATA)>
+		<!ATTLIST message from CDATA #IMPLIED>
+		<!ATTLIST message to CDATA #REQUIRED>
+		<!ATTLIST message subject CDATA #FIXED "hello">
+		]>
+		
+		
+		<email>
+			<message from="yashp45@gmail.com" to="shreya25@gmail.com" subject="hello"></message>
+		
+	
+		</email>
