@@ -1,0 +1,12 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="STUDENT" type="stutype"/>
+<xsd:complexType name="stutype">
+<xsd:sequence>
+<xsd:element name="FIRST_NAME" type="xsd:string"/>
+<xsd:element name="LAST_NAME" type="xsd:string"/>
+<xsd:element name="ADDRESS" type="xsd:string"/>
+<xsd:element name="PERCENTAGE" type="xsd:int"/>
+<xsd:element name="CURRENT_YEAR" type="xsd:gYear"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

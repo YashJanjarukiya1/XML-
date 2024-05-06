@@ -1,0 +1,11 @@
+<LUNCH xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="f2.xsd">
+<STARTER>
+<SOUP>CHOWMEEN</SOUP>
+</STARTER>
+<MAIN_COURSE>
+<VEG_LUNCH>GUJARATI THALI</VEG_LUNCH>
+</MAIN_COURSE>
+<DESSERT>
+<ICE_CREAM>CHOCOLATE</ICE_CREAM>
+</DESSERT>
+</LUNCH>

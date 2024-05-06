@@ -1,0 +1,7 @@
+<STUDENT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="f1.xsd">
+<FIRST_NAME>yash</FIRST_NAME>
+<LAST_NAME>janjarukiya</LAST_NAME>
+<ADDRESS>rajkot</ADDRESS>
+<PERCENTAGE>90%</PERCENTAGE>
+<CURRENT_YEAR>2023</CURRENT_YEAR>
+</STUDENT>

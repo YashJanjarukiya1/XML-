@@ -1,0 +1,32 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:simpleType name="mobiletype">
+<xsd:restriction base="xsd:long">
+<xsd:pattern value="[0-9]{10}"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:element name="STUDENT" type="stutype"/>
+<xsd:complexType name="stutype">
+<xsd:sequence>
+<xsd:element name="STUDENT_NAME" type="xsd:string"/>
+<xsd:element name="PERSONAL_INFO">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="ADDRESS" type="xsd:string"/>
+<xsd:element name="BIRTHDATE" type="xsd:date"/>
+<xsd:element name="GENDER" type="xsd:string"/>
+<xsd:element name="MOBILE_NO" type="mobiletype"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="RESULT">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="TOTAL" type="xsd:integer"/>
+<xsd:element name="PERCENTAGE" type="xsd:int"/>
+<xsd:element name="GRADE" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

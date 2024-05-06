@@ -1,0 +1,14 @@
+<Students>
+    <Student>
+        <fname ID="ID1">fname1_Lname1</fname>
+        <Course>Course1</Course>
+        <Course>Course2</Course>
+        <Course>Course3</Course>
+    </Student>
+    <Student>
+        <fname ID="ID2">fname2_Lname2</fname>
+        <Course>Course4</Course>
+        <Course>Course5</Course>
+        <Course>Course6</Course>
+    </Student>
+</Students>

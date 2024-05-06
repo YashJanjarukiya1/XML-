@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+    <Student Name="John Doe" PersonalInfo="Address1, City1, State1, Country1, 1234567890, Male">
+        <Result Subject="Math" Marks="85" />
+        <Result Subject="Science" Marks="90" />
+    </Student>
+    <Student Name="Jane Doe" PersonalInfo="Address2, City2, State2, Country2, 0987654321, Female">
+        <Result Subject="Math" Marks="95" />
+        <Result Subject="Science" Marks="85" />
+    </Student>
+</Students>

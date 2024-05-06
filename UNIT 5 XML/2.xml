@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Order_Details>
+<Order_Detail>
+<OrderNumber>1</OrderNumber>
+<OrderDate>2022-01-01</OrderDate>
+<OrderAmount>100</OrderAmount>
+<Item>
+<ItemPrice>10</ItemPrice>
+<ItemName>Item 1</ItemName>
+<Quantity>10</Quantity>
+</Item>
+<Item>
+<ItemPrice>20</ItemPrice>
+<ItemName>Item 2</ItemName>
+<Quantity>5</Quantity>
+</Item>
+</Order_Detail>
+<Order_Detail>
+<OrderNumber>2</OrderNumber>
+<OrderDate>2022-01-02</OrderDate>
+<OrderAmount>200</OrderAmount>
+<Item>
+<ItemPrice>30</ItemPrice>
+<ItemName>Item 3</ItemName>
+<Quantity>10</Quantity>
+</Item>
+<Item>
+<ItemPrice>40</ItemPrice>
+<ItemName>Item 4</ItemName>
+<Quantity>10</Quantity>
+</Item>
+</Order_Detail>
+</Order_Details>

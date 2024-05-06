@@ -1,0 +1,6 @@
+<EMPLOYEE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="f6.xsd">
+<NUMBER>15</NUMBER>
+<NAME>yash janjarukiya</NAME>
+<DESIGNATION>DATA ANALYST</DESIGNATION>
+<SALARY>150000</SALARY>
+</EMPLOYEE>

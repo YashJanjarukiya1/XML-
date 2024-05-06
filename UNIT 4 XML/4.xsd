@@ -1,0 +1,16 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="EMPLOYEE" type="emptype"/>
+<xsd:complexType name="emptype">
+<xsd:sequence>
+<xsd:element name="NO_OF_CHILDREN" type="xsd:int" maxOccurs="2"/>
+<xsd:element name="GENDER">
+<xsd:complexType>
+<xsd:choice>
+<xsd:element name="BOY" type="xsd:string" maxOccurs="2"/>
+<xsd:element name="GIRL" type="xsd:string" maxOccurs="2"/>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

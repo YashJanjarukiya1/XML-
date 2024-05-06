@@ -1,0 +1,11 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="EMPLOYEE" type="emptype"/>
+<xsd:complexType name="emptype">
+<xsd:sequence>
+<xsd:element name="NUMBER" type="xsd:integer"/>
+<xsd:element name="NAME" type="xsd:string"/>
+<xsd:element name="DESIGNATION" type="xsd:string"/>
+<xsd:element name="SALARY" type="xsd:long"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

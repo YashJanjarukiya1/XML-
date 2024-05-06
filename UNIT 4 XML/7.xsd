@@ -1,0 +1,32 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:simpleType name="vegtype">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="CHIPS"/>
+<xsd:enumeration value="BISCUITS"/>
+<xsd:enumeration value="SALAD"/>
+<xsd:enumeration value="BREAD"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:element name="ITEM" type="itemtype"/>
+<xsd:complexType name="itemtype">
+<xsd:sequence>
+<xsd:element name="NAME" type="xsd:string"/>
+<xsd:element name="CATEGORY">
+<xsd:complexType>
+<xsd:choice>
+<xsd:element name="VEG" type="vegtype"/>
+<xsd:element name="NON_VEG" type="xsd:string"/>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="COMPANY_INFO">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="PHONE_NO" type="xsd:long"/>
+<xsd:element name="ADDRESS" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

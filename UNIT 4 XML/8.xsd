@@ -1,0 +1,23 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:simpleType name="pintype">
+<xsd:restriction base="xsd:long">
+<xsd:pattern value="[0-9]{6}"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:element name="VENDER" type="vendtype"/>
+<xsd:complexType name="vendtype">
+<xsd:sequence>
+<xsd:element name="NAME" type="xsd:string"/>
+<xsd:element name="PERSONAL_INFO">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="ADDRESS" type="xsd:string"/>
+<xsd:element name="BIRTHDATE" type="xsd:date"/>
+<xsd:element name="GENDER" type="xsd:string"/>
+<xsd:element name="PINCODE" type="pintype"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

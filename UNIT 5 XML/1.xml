@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emp_info>
+<employee emp_name="123">
+<firstname>John</firstname>
+<lastname>Doe</lastname>
+</employee>
+</emp_info>

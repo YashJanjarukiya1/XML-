@@ -1,0 +1,35 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:simpleType name="deptype">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="SALES"/>
+<xsd:enumeration value="FINANCIAL"/>
+<xsd:enumeration value="OPERATION"/>
+<xsd:enumeration value="DATABASE"/>
+</xsd:restriction>
+</xsd:simpleType>
+<xsd:element name="SALESPERSON" type="saletype"/>
+<xsd:complexType name="saletype">
+<xsd:sequence>
+<xsd:element name="NAME" type="xsd:string"/>
+<xsd:element name="BUSINESS_INFO">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="COMPANY" type="xsd:string"/>
+<xsd:element name="DEPARTMENT" type="deptype"/>
+<xsd:element name="MANAGER" type="xsd:string"/>
+<xsd:element name="PHONE_NO" type="xsd:long"/>
+<xsd:element name="EMAIL" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="PERSONAL_INFO">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="PHONE_NO" type="xsd:long"/>
+<xsd:element name="ADDRESS" type="xsd:string"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>

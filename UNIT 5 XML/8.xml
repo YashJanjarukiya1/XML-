@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students>
+    <Student Roll_no="1" Name="John Doe" Marks="80" Rank="1">
+        <Result>dist</Result>
+    </Student>
+    <Student Roll_no="2" Name="Jane Doe" Marks="65">
+        <Result>first</Result>
+    </Student>
+    <Student Roll_no="3" Name="Bob Smith" Marks="50">
+        <Result>second</Result>
+    </Student>
+    <Student Roll_no="4" Name="Alice Johnson" Marks="35">
+        <Result>fail</Result>
+    </Student>
+</Students>

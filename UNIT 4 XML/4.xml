@@ -1,0 +1,7 @@
+<EMPLOYEE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="f4.xsd">
+<NO_OF_CHILDREN>2</NO_OF_CHILDREN>
+<GENDER>
+<BOY>RINKU</BOY>
+<BOY>PINKU</BOY>
+</GENDER>
+</EMPLOYEE>

@@ -1,0 +1,14 @@
+<SALESPERSON xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="f5.xsd">
+<NAME>yash janjarukiya</NAME>
+<BUSINESS_INFO>
+<COMPANY>yash PVT. LTD.</COMPANY>
+<DEPARTMENT>manager</DEPARTMENT>
+<MANAGER>YES</MANAGER>
+<PHONE_NO>1234567890</PHONE_NO>
+<EMAIL>yash50@gmail.com</EMAIL>
+</BUSINESS_INFO>
+<PERSONAL_INFO>
+<PHONE_NO>1234567890</PHONE_NO>
+<ADDRESS>bopal</ADDRESS>
+</PERSONAL_INFO>
+</SALESPERSON>
