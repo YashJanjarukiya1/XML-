@@ -1,0 +1,10 @@
+<Order_details>
+<orderdetail>
+<ordernumber>012345</ordernumber>
+<orderdate>10/04/2023</orderdate>
+<orderamount>5</orderamount>
+<itemprice>750</itemprice>
+<itemname>tishirt</itemname>
+<quantity>10</quantity>
+</orderdetail>
+</Order_details>

@@ -1,0 +1,23 @@
+<Email>
+<from>yash50@gmail.com</from>
+<to>shreya50@gmail.com</to>
+<content>
+<person>
+<name>yash janjarukiya</name>
+<address>Ahmedabad</address>
+</person>
+
+<exercises>
+<exercise>
+<topic>Mathematics</topic>
+<description>Solve the following equations.</description>
+</exercise>
+<exercise>
+<topic>ds</topic>
+<description>Write a program to create BSTree.</description>
+</exercise>
+</exercises>
+
+<course>Programming</course>
+</content>
+</Email>

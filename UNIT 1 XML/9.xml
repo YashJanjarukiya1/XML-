@@ -1,0 +1,15 @@
+<Letter>
+<contact type="manager">
+<name>yash janjarukiya</name>
+<address>rajkot</address>
+<city>Ahmedabad</city>
+<pin>382345</pin>
+<state>gujarat</state>
+<flag gender="male"/>
+</contact>
+
+<salutation>Dear Mr.Hitesh</salutation>
+<paragraph> Hello. how are you, my name is dulani sahil, i study in gls university at ahmedabad. </paragraph>
+<closing>Sincerely,</closing>
+<signature>yashp</signature>
+</Letter>

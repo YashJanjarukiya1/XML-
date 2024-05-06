@@ -1,0 +1,25 @@
+<Student>
+<Name>
+<fname>yash</fname>
+<lname>janjarukiya</lname>
+</Name>
+<ID>123456</ID>
+<Plan year="2023">
+<course>
+<name>Computer Science</name>
+<shortName>CS</shortName>
+<record>
+<Grade>A+</Grade>
+<date>15/03/2023</date>
+</record>
+</course>
+<course>
+<name>Mathematics</name>
+<shortName>Math</shortName>
+<record>
+<Grade>A+</Grade>
+<date>12/10/2023</date>
+</record>
+</course>
+</Plan>
+</Student>

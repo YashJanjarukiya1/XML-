@@ -1,0 +1,14 @@
+<Students>
+<student_name>yash</student_name>
+<personalinfo>
+<address>rajkot</address>
+<birthdate>04/03/2005</birthdate>
+<gender>male</gender>
+<mobilenumber>9624654044</mobilenumber>
+</personalinfo>
+<result>
+<total>700</total>
+<percentage>80%</percentage>
+<grade>A</grade>
+</result>
+</Students>
