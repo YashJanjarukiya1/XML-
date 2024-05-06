@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+	<xsd:Schema xmlns:xsd="http://WWW.W3.org/2001/XMLSchema">
+		<xsd"element name="book" type="bookType"/>
+		
+		<xsd:complexType name="bookType">
+			<xsd:sequence>
+				<xsd:element name="title" type="xsd:String"/>
+				
+				<xsd:element name="author" type="xsd:String"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	
+	</xsd:Schema>

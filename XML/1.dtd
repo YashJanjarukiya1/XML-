@@ -1,0 +1,10 @@
+<!ELEMENT guest (name,age,address,beverage,beverage1)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT beverage (tea|coffee)>
+<!ELEMENT tea (#PCDATA)>
+<!ELEMENT coffee (#PCDATA)>
+<!ELEMENT beverage1 (coldrink|softdrink)>
+<!ELEMENT coldrink (#PCDATA)>
+<!ELEMENT softdrink (#PCDATA)>

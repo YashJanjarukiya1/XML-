@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<?xml-stylesheet type="text/xsl" ref="customer.xsl"?>
+		
+		<customers>
+		
+		<customer>
+		
+		<name>yash</name>
+		<address>rajkot</address>
+		<state>gujarat</state>
+		<phone>9106236251</phone>
+		
+		</customer>
+		
+		<customer>
+		
+		<name>aarti</name>
+		<address>junagadh</address>
+		<state>gujarat</state>
+		<phone>9106736251</phone>
+		
+		</customer>
+		
+		<customer>
+		
+		<name>prince</name>
+		<address>surat</address>
+		<state>gujarat</state>
+		<phone>9106236951</phone>
+		
+		</customer>
+		
+		</customers>

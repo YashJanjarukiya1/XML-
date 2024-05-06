@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE books SYSTEM "2.dtd">
+		<books>
+			<book>
+				<btitle>xml</btitle>
+				<author>yash</author>
+				<author>atul kahate</author>
+				<address>rajkot</address>
+			</book>
+			
+		</books>

@@ -1,0 +1,2 @@
+<!ELEMENT vehical (c_name, c_seat, c_price)>
+<!ELEMENT vehical (#PCDATA)>

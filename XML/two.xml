@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE vehical SYSTEM "two.dtd">
+	
+	<vehical>
+		
+		<car>
+			<c_name>audi</c_name>
+			<c_seat>2</c_seat>
+			<c_price>10000000</c_price>
+		</car>
+	
+	</vehical>

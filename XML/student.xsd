@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="student" type="studentType"/>
+
+<xsd:complexType name="studentType">
+<xsd:sequence>
+<xsd:element name="roll" type="xsd:integer"/>
+<xsd:element name="name" type="xsd:string"/>
+<xsd:element name="mark" type="xsd:integer"/>
+<xsd:element name="result" type="xsd:string"/>
+
+</xsd:sequence>
+
+</xsd:complexType>
+</xsd:schema> 

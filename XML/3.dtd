@@ -1,0 +1,7 @@
+<!ELEMENT books (book)>
+<!ELEMENT book (btitle+,subtitle,author+,pubyear)>
+<!ELEMENT btitle (#PCDATA)>
+<!ELEMENT subtitle EMPTY>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT pubyear (#PCDATA|REPRINT)*>
+<!ELEMENT REPRINT (#PCDATA)>

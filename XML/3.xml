@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE books SYSTEM "3.dtd">
+	<books>
+		<book>
+			<btitle>xml</btitle>
+			<btitle>dbms</btitle>
+			<subtitle></subtitle>
+			<author>yash</author>
+			<author>atul kahate</author>
+			<pubyear>
+				<REPRINT>2020</REPRINT>
+			</pubyear>
+		</book>
+	</books>

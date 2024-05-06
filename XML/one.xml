@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+	<vehical>
+		
+		<car>
+			<c_name>audi</c_name>
+			<c_seat>2</c_seat>
+			<c_price>10000000</c_price>
+		</car>
+	
+	<car>
+			<c_name>fortuner</c_name>
+			<c_seat>7</c_seat>
+			<c_price>5000000</c_price>
+		</car>
+		
+		<car>
+			<c_name>BMW</c_name>
+			<c_seat>2</c_seat>
+			<c_price>20000000</c_price>
+		</car>
+	
+	
+	
+	</vehical>

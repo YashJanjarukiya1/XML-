@@ -1,0 +1,7 @@
+
+<!DOCTYPE  address[<!ELEMENT address(street,region,postalcode,country)>
+
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT postalcode (#PCDATA)>
+<!ELEMENT country (#PCDATA)>]>																																																							

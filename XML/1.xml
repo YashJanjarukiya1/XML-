@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE guest SYSTEM "gust.dtd">
+	
+	<guest>
+		<name>yash</name>
+		<age>19</age>
+		<address>rajkot</address>
+		<beverage>
+			<coffee>dff</coffee>		
+		</beverage>
+		<beverage1>
+			<coldrink>dff</coldrink>
+		</beverage1>
+	
+	</guest>

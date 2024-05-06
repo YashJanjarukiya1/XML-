@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE address SYSTEM "Demo1.dtd">
+	
+	<address>
+		<street>street1</street>
+		<region>law garden</region>
+		<postalcode>38006</postalcode>
+		<country>india</country>
+	
+	</address>+
